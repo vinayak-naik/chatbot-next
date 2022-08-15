@@ -1,0 +1,32 @@
+.container {
+  /* margin: 50px 0; */
+  background-image: url("../../public/img/bg.jpg");
+  /* background-image: url("../../public/img/bg.png"); */
+  /* background-image: url("../../public/img/bg1.webp"); */
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container h1 {
+  color: rgb(206, 203, 220);
+  font-size: 60px;
+  font-weight: bolder;
+  padding: 20px;
+}
+.container h1:hover {
+  color: rgb(255, 255, 255);
+}
+.buttonBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.241);
+  gap: 100px;
+}
+.button {
+  margin-left: 28vw !important;
+}

@@ -1,0 +1,50 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../../public/img/cricketbg.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.innerContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  padding-top: 15vh;
+  background-color: rgba(255, 255, 255, 0.159);
+}
+.teamContainer {
+  height: 400px;
+  width: 35vw;
+  height: 85vh;
+}
+.teamContainer h1 {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(20, 113, 118);
+  padding: 20px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin: 0;
+}
+.progressContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.433);
+  /* border-radius: 8px; */
+  /* border: 1px solid rgba(255, 0, 0, 0.619); */
+  padding: 10px 0;
+}
+.progressBox {
+  height: 100px;
+  width: 100px;
+}
+
+.participantsContainer {
+  padding: 1vw;
+}
